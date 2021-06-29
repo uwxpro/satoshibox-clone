@@ -1,4 +1,4 @@
-# satoshibox-clone
+# SatoshiBox Cloned Nulled
 Satoshibox.com / Satoshidisk - Clone
 
 
