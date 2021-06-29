@@ -2,30 +2,24 @@
 Satoshibox.com / Satoshidisk - Clone
 
 
-1- Unzip folder Files/ into your www/ root.
-2- Create new database and import Database/database.sql in it.
-3- Edit the configurations inside the file requires/sell.class.php
+1- Unzip folder Files/ into your www/ root.  
+2- Create new database and import Database/database.sql in it.  
+3- Edit the configurations inside the file requires/sell.class.php    
 
 > Only this lines:
 -------------------
-// Website
-private $fee_service = 3; // Pourcent you want take for each transaction 
-private $title = "SatoshiBox Clone ~ Sell your files for bitcoins";
-private $urlsite = "http://www.example.com";
-private $secretfolder = "secretfolder";
-private $authorized_ext = array(".zip", ".rar"); // Authorized extensions to upload from users
-// Admin Panel
-
-private $admin_username = 'admin';
-
-private $admin_password = 'admin';
-
+// Website  
+private $fee_service = 3; // % you want take for each transaction  
+private $title = "SatoshiBox Clone ~ Sell your files for bitcoins";  
+private $urlsite = "http://www.example.com";  
+private $secretfolder = "secretfolder";  
+private $authorized_ext = array(".zip", ".rar"); // Authorized extensions to upload from users  
+// Admin Panel  
+private $admin_username = 'admin';  
+private $admin_password = 'admin';  
 // Database Connection
-
 private $host = "";
-
 private $user = "";
-
 private $password = "";
 private $database = "";
 // JSON RPC Configs
