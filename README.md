@@ -17,28 +17,24 @@ private $authorized_ext = array(".zip", ".rar"); // Authorized extensions to upl
 // Admin Panel  
 private $admin_username = 'admin';  
 private $admin_password = 'admin';  
-// Database Connection
-private $host = "";
-private $user = "";
-private $password = "";
-private $database = "";
-// JSON RPC Configs
-// Go to /etc/bitcoin/bitcoin.conf and write the details here
-private $json_username = "";
-private $json_password = "";
-private $json_port = "";
-private $json_server = "";
-
+// Database Connection  
+private $host = "";  
+private $user = "";  
+private $password = "";  
+private $database = "";  
+// JSON RPC Configs  
+// Go to /etc/bitcoin/bitcoin.conf and write the details here  
+private $json_username = "";  
+private $json_password = "";  
+private $json_port = "";  
+private $json_server = "";  
+  
 // CoinPayment API
-private $cp_public = "";
-private $cp_private = "";
-
-public $cp_merchant_id = "";
-public $cp_ipn_secret = "";
-public $cp_debug_email = "";
-
-You have to create a coinpayments.net account, generate new API and merchant ID, set IPN password.
-
-This is all ! Enjoy your new service online !
-
-If you have any problem or want customized work, please contact us at: info@progweb.info.
+private $cp_public = "";  
+private $cp_private = "";  
+  
+public $cp_merchant_id = "";  
+public $cp_ipn_secret = "";  
+public $cp_debug_email = "";  
+  
+You have to create a coinpayments.net account, generate new API and merchant ID, set IPN password.  
