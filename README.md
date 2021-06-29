@@ -9,7 +9,7 @@ Satoshibox.com / Satoshidisk - Clone
 > Only this lines:
 -------------------
 // Website
-private $fee_service = 3; // Pourcent you want take for each transaction
+private $fee_service = 3; // Pourcent you want take for each transaction 
 private $title = "SatoshiBox Clone ~ Sell your files for bitcoins";
 private $urlsite = "http://www.example.com";
 private $secretfolder = "secretfolder";
