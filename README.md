@@ -10,16 +10,27 @@ Satoshibox.com / Satoshidisk - Clone
 -------------------
 // Website
 private $fee_service = 3; // Pourcent you want take for each transaction
+
 private $title = "SatoshiBox Clone ~ Sell your files for bitcoins";
+
 private $urlsite = "http://www.example.com";
+
 private $secretfolder = "secretfolder";
+
 private $authorized_ext = array(".zip", ".rar"); // Authorized extensions to upload from users
+
 // Admin Panel
+
 private $admin_username = 'admin';
+
 private $admin_password = 'admin';
+
 // Database Connection
+
 private $host = "";
+
 private $user = "";
+
 private $password = "";
 private $database = "";
 // JSON RPC Configs
